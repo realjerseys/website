@@ -1,0 +1,147 @@
+body {
+	background-color: #EFEFEF;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.container {
+	margin: auto;
+	max-width: 800px;
+	padding: 0;
+}
+
+header {
+	background-image: url("banner.jpg");
+	height: 330px;
+}
+
+main {
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 30px;
+	padding: 0;
+	margin: 0px 20px;
+}
+
+h1 > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1 > ul > li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 3px 0 0;
+}
+
+h3 {
+	color: #003366;
+	font-size: 20px;
+}
+
+h4 {
+	margin: 20px 0px;
+	color: #006699;
+	font-size: 18px;
+	border-bottom: 1px solid #006699;
+}
+
+h5 {
+	margin: 0;
+	color: #003366;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.team {
+	margin: 10px 0px;
+	padding: 10px;
+	background-color: #EFEFEF;
+}
+
+.bannerTitle {
+	background-color: rgba(0, 51, 102, 0.6);
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+.bannerTitle > p {
+	margin: 0 20px;
+}
+
+.mainNav {
+	list-style: none;
+	padding: 10px 10px;
+	background-color: #003366;
+	margin: 0;
+}
+
+.mainNav > li {
+	display: inline;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 0 10px;
+}
+
+.mainNav > li a, a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.mainNav > li a:hover {
+	color: #EFEFEF;
+}
+
+.about > p {
+	margin: 0;
+}
+
+.about {
+	font-style: italic;
+	font-size: 16px;
+	background-color: #006699;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0px 5px;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #006699;
+}
+
+a:hover {
+	color: #003366;
+}
+
+.example {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	padding: 10px;
+}
+
+button {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #003366;
+	padding: 5px 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #003366;
+}
+
+footer > a {
+	margin: 0px 10px;
+}
